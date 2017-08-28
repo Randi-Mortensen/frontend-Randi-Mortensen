@@ -4,12 +4,24 @@ body{
 .col-md-4{
     border: 1px solid black;
 }
-#box-1 {
-background-color: red;
+.col-md-2{
+    border: 1px solid black;
+}
+.col-md-8{
+    border: 1px solid black;
+}
+#Box-1 {
+    background-color: red;
+}
+#Box-2 {
+    background-color: yellow;
+    }
+#Box-3 {
+    background-color: lightgreen;
 }
 
 @media screen and (max-width: 768px) {
     body{
-        padding-top: 0px;
+        padding-top: 50px;
     }
 }
