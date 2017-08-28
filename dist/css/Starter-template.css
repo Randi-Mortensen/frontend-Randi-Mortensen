@@ -1,11 +1,15 @@
 body{
-    padding-top: 40px;
+    padding-top: 70px;
 }
 .col-md-4{
     border: 1px solid black;
 }
+#box-1 {
+background-color: red;
+}
+
 @media screen and (max-width: 768px) {
     body{
-        padding-top: 40px;
+        padding-top: 0px;
     }
 }
