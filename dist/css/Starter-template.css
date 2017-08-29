@@ -1,7 +1,20 @@
+.navbar-inverse {
+    background-color: #D5F69E;
+    border-color: #929292;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+.navbar-inverse .navbar-brand {
+    color: #FF0000;
+}
 body{
     padding-top: 70px;
 }
-.col-md-4{
+img{
+    width: 100%;
+}
+col-md-12{
     border: 1px solid black;
 }
 .col-md-2{
@@ -10,8 +23,12 @@ body{
 .col-md-8{
     border: 1px solid black;
 }
+.col-md-4 img{
+    width: 35%;
+    height: 35%;
+}
 #Box-1 {
-    background-color: red;
+    background-color: #FF0000;
 }
 #Box-2 {
     background-color: yellow;
