@@ -1,10 +1,9 @@
-<script>
-    var equalColumns = function (){
+var equalColumns = function () {
     //console.log("Hej");
-    var columns = document.getElementsByClassName("col");
+    var columns = document.getElementsByClassName("col-md-3");
 
-    //console.log(columns.lenght);
-    var lenght = columns.lenght;
+    console.log(columns.length);
+    var length = columns.length;
     var height = 0;
 
     for (var i = 0; i < length; i++) {
@@ -14,9 +13,9 @@
     for (var i = 0; i < length; i++) {
         //console.log(i);
         if (columns[i].clientHeight > height) {
-        height = columns[i].clientHeight;
-    //console.log(height);
-    }
+            height = columns[i].clientHeight;
+            //console.log(height);
+        }
     }
 
     for (var i = 0; i < length; i++) {
@@ -24,5 +23,4 @@
     }
 }
 equalColumns();
-windows.addEventListner("resize", equalColumns, true);
-</script>
+window.addEventListener("resize", equalColumns, true);
